@@ -21,7 +21,6 @@ struct Context {
 
   TaskHandle_t task_update_sensor;
   TaskHandle_t task_calculate_fft;
-  TaskHandle_t task_web_server;
 };
 Context *ctx;
 
