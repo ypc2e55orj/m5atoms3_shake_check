@@ -1,0 +1,23 @@
+dependencies:
+  M5GFX:
+    component_hash: 035352785ea1f6175426e7c586a51e3035b487c699228dbb554faf5cf2620bfe
+    source:
+      git: https://github.com/m5stack/M5GFX.git
+      path: .
+      type: git
+    version: 8cc1b55e594af14b3d07735413af79c42dcb1e62
+  M5Unified:
+    component_hash: 8b78cf16d001a98ef581f36cfb4f063d2f92e61fc571e9d075fdf52f47fe7ed3
+    source:
+      git: https://github.com/m5stack/M5Unified.git
+      path: .
+      type: git
+    version: 01e1f993666d0035d93934082672b350ccc8ddf9
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.1.2
+manifest_hash: f99a4e010325d6c1b3c0f14b67c1dd0c13394d38263214d8c7fd930adc870fc4
+target: esp32s3
+version: 1.0.0
