@@ -62,7 +62,7 @@ Context *ctx;
     // センサ取得完了通知が来るまで待つ
     ulTaskNotifyTake(pdFALSE, portMAX_DELAY);
 
-    fft_config_t *real_fft_plain = fft_init(1024, FFT_REAL, FFT_FORWARD, nullptr, nullptr);
+    fft_config_t *real_fft_plain = fft_init(kNumFftSamples, FFT_REAL, FFT_FORWARD, nullptr, nullptr);
     for (auto n = 0; n < real_fft_plain->size; n++) {
       real_fft_plain->input[n] = ctx->x[n];
     }
